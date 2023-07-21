@@ -5,7 +5,7 @@ const Faq = () => {
   const { icon, title, accordions } = faq;
 
   return (
-    <section className="section mt-[50px]  bg-slate-100 py-[50px]">
+    <section className="section mt-[20px]  bg-slate-100 py-[30px] mb-[100px]">
       <div className="max-w-[768px] mx-auto lg:bg-faq bg-no-repeat bg-custom bg-center lg:pt-6 lg:h-[1120px]">
         <div className="section-title-group justify-center -space-x-4 lg:max-w-[540px] mx-auto px-4 lg:px-0">
           <img src={icon} alt="faq" className="lg:hidden" />
