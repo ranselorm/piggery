@@ -4,16 +4,15 @@ import { BsPeopleFill } from "react-icons/bs";
 
 const Services = () => {
   return (
-    <section className=" mb-[100px] -mt-[30px] lg:mt-0 bg-slate-100 lg:h-[120vh] h-[160vh]">
-      <div className="px-[20px] lg:px-[135px] pt-[100px]">
+    <section className=" mb-[100px]  lg:mt-0 bg-gray-100 lg:h-[80vh] h-[140vh]">
+      <div className="px-[20px] lg:px-[135px] pt-[50px] -mt-[30px]">
         <div className="section-title-group justify-center">
-          <MdMiscellaneousServices className="text-[100px] opacity-25" />
           <h2 className="h2 section-title">
             Services<span className="text-[#87CEEB]">.</span>
           </h2>
         </div>
         {/* wrapper */}
-        <div className="grid grid-rows-3 lg:grid-cols-3 gap-6 justify-center items-center lg:px-[70px] px-0">
+        <div className="grid grid-rows-3 lg:grid-cols-3 gap-6 justify-center items-center lg:px-[70px] px-0 -mt-[50px] lg:-mt-[30px]" >
           <div
             className="w-[370px] lg:w-[300px] h-[330px] rounded-lg px-[30px] flex flex-col justify-center items-start gap-y-4 lg:shadow-xl shadow-lg"
             data-aos="fade-up"
