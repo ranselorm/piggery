@@ -4,7 +4,7 @@ import { BsPeopleFill } from "react-icons/bs";
 
 const Services = () => {
   return (
-    <section className=" mb-[100px]  lg:mt-0 bg-gray-100 lg:h-[80vh] h-[150vh]">
+    <section className=" mb-[100px]  lg:mt-0 bg-gray-100 lg:h-[80vh] h-[140vh]">
       <div className="px-[20px] lg:px-[135px] pt-[50px] -mt-[30px]">
         <div className="section-title-group justify-center">
           <h2 className="h2 section-title">

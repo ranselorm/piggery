@@ -26,7 +26,7 @@ const Accordion = ({ accordion }) => {
             isOpen ? "min-h-[200px] lg:min-h-[160px]" : "min-h-0"
           } max-h-0 overflow-hidden flex justify-center transition-all px-[30px]`}
         >
-          <h6 className="mt-6">{answer}</h6>
+          <h6 className="mt-4">{answer}</h6>
         </div>
       </div>
     </div>
