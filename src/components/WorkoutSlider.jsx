@@ -30,18 +30,13 @@ const WorkoutSlider = () => {
         return (
           <SwiperSlide
             key={index}
-            className="max-w-[320px] max-h-[320px] relative"
+            className="max-w-[320px] max-h-[320px]"
           >
             <img
               src={program.image}
               alt="program"
               className="w-full h-full object-cover"
             />
-            <div className="absolute bg-white left-[20px] bottom-[20px] px-[14px] h-[26px] flex items-center rounded-[1px]">
-              <div className="font-primary font-semibold text-sm text-neutral-500">
-                {program.name}
-              </div>
-            </div>
           </SwiperSlide>
         );
       })}

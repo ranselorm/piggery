@@ -1,26 +1,30 @@
 // images
-import Logo from "../src/assets/img/header/logo.svg";
-import ResistanceImg from "../src/assets/img/workouts/resistance.png";
-import BoxingImg from "../src/assets/img/workouts/boxing.png";
-import BodyPumpImg from "../src/assets/img/workouts/body-pump.png";
-import YogaImg from "../src/assets/img/workouts/yoga.png";
-import FullBodyImg from "../src/assets/img/workouts/full-body.png";
-import FitnessImg from "../src/assets/img/workouts/fitness.png";
-import BattleRopeImg from "../src/assets/img/workouts/battle-rope.png";
+import Logo from "../src/assets/img/header/lg.png";
+import Logo2 from "../src/assets/img/header/lg2.png";
+import p1 from "../src/assets/img/workouts/p1.jpeg";
+import p2 from "../src/assets/img/workouts/p2.jpeg";
+import p3 from "../src/assets/img/workouts/p3.jpeg";
+import p4 from "../src/assets/img/workouts/p4.jpeg";
+import p5 from "../src/assets/img/workouts/p5.jpeg";
+import p6 from "../src/assets/img/workouts/p6.jpeg";
+import p7 from "../src/assets/img/workouts/p7.jpeg";
+import p8 from "../src/assets/img/workouts/p8.jpeg";
+import p9 from "../src/assets/img/workouts/p9.jpeg";
+import p10 from "../src/assets/img/workouts/p10.jpeg";
+
 import CommunityImg1 from "../src/assets/img/community/img1.png";
 import CommunityImg2 from "../src/assets/img/community/img2.png";
 import CommunityImg3 from "../src/assets/img/community/img3.png";
 import CommunityImg4 from "../src/assets/img/community/img4.png";
-import JoinImg from "../src/assets/img/join/woman.png";
 // icons
 import UsersIcn from "../src/assets/img/about/icons/users-icn.svg";
-import CalendarIcn from "../src/assets/img/workouts/icons/calendar.svg";
 import PriceIcn from "../src/assets/img/pricing/icons/price.svg";
 import CommunityIcn from "../src/assets/img/community/icons/community-icn.svg";
 import QuestionMarkIcn from "../src/assets/img/faq/icons/question-mark.svg";
 
 export const header = {
   logo: Logo,
+  logo2: Logo2,
   btnLoginText: "Log in",
   btnSignupText: "Sign Up",
 };
@@ -42,36 +46,37 @@ export const about = {
 };
 
 export const workouts = {
-  icon: CalendarIcn,
-  title: "Training programs",
+  title: "Images",
   programs: [
     {
-      image: ResistanceImg,
-      name: "Resistance",
+      image: p1,
     },
     {
-      image: BoxingImg,
-      name: "Boxing",
+      image: p2,
     },
     {
-      image: BodyPumpImg,
-      name: "Body Pump",
+      image: p3,
     },
     {
-      image: YogaImg,
-      name: "Yoga",
+      image: p4,
     },
     {
-      image: FullBodyImg,
-      name: "Full Body",
+      image: p5,
     },
     {
-      image: FitnessImg,
-      name: "Fitness",
+      image: p6,
     },
     {
-      image: BattleRopeImg,
-      name: "Battle Rope",
+      image: p7,
+    },
+    {
+      image: p8,
+    },
+    {
+      image: p9,
+    },
+    {
+      image: p10,
     },
   ],
 };
@@ -152,47 +157,31 @@ export const faq = {
   title: "FAQ",
   accordions: [
     {
-      question: "How can I book a workout class?",
+      question: "What do pigs eat??",
       answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+        "Pigs are omnivorous animals and have a diverse diet. They eat grains, such as corn, wheat, and barley, as well as protein sources like soybean meal. Additionally, they consume vegetables, fruits, and sometimes kitchen waste. Proper nutrition is crucial for their growth and health.",
     },
     {
-      question: "Can I pay by cash for my membership?",
+      question: "How are pigs bred and raised in a piggery?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime recusandae ea dolores tempora maxime.",
+        "Pigs are usually bred through controlled mating. Once born, piglets are raised in specific pens or farrowing houses until they are old enough to be moved to grower or finisher pens.",
     },
     {
-      question: "What age do I need to be to join?",
+      question: "How are pig health and welfare maintained in a piggery?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime recusandae ea dolores tempora maxime.",
+        "Maintaining pig health and welfare is essential for a successful piggery operation. This involves regular health checks, vaccination programs, proper nutrition, providing clean and adequate living conditions, and preventing the spread of diseases.",
     },
     {
-      question: "Are there any lockers?",
+      question: "What are some common pig diseases and how are they managed?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime recusandae ea dolores tempora maxime.",
-    },
-    {
-      question: "How do I cancel my membership?",
-      answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime recusandae ea dolores tempora maxime.",
-    },
-    {
-      question: "Is there water available at the gym?",
-      answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime recusandae ea dolores tempora maxime.",
+        "Common pig diseases include swine fever, respiratory infections, and gastrointestinal disorders. They are managed through vaccinations, quarantine protocols, proper hygiene, and timely treatment by qualified veterinarians.",
     },
   ],
 };
 
-export const join = {
-  image: JoinImg,
-  title: "Wanna join & have fun?",
-  subtitle:
-    "We’ll keep you updated on the things you need to know about Gymme. Nothing more, nothing less.",
-  btnText: "Join now",
-};
+
 
 export const footer = {
-  logo: Logo,
-  copyrightText: "All rights reserved. Gymme 2023.",
+  logo: Logo2,
+  copyrightText: "All rights reserved.  2023.",
 };

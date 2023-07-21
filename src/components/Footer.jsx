@@ -1,16 +1,16 @@
 import { footer } from "../data";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
-  const { logo, copyrightText } = footer;
+  const { logo } = footer;
   return (
     <footer className="bg-neutral-500 h-[125px] md:h-[195px]">
       <div className="container mx-auto flex justify-between px-6 lg:px-0 items-center h-full">
-        <a href="/">
-          <img src={logo} alt="logo" />
-        </a>
+        <Link to="/">
+          <img src={logo} alt="logo" className="w-[100px]" />
+        </Link>
         <p className="text-neutral-300">
-          <span className="mr-2">&copy;</span>
-          {copyrightText}
+          All rights reserved. &copy;SG ARFIKA FARMS. 2023
         </p>
       </div>
     </footer>

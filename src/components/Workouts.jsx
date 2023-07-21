@@ -2,21 +2,16 @@ import { workouts } from "../data";
 import WorkoutSlider from "./WorkoutSlider";
 
 const Workouts = () => {
-  const { title, icon } = workouts;
+  const { title } = workouts;
   return (
     <section className="section">
-      <div
-        className="section-title-group max-w-[540px] mx-auto px-4 lg:px-0"
-        data-aos="fade-up"
-        data-aos-delay="200"
-      >
-        <img src={icon} alt="icon" />
-        <h2 className="h2 section-title">
+      <div className="section-title-group max-w-[540px] mx-auto px-4 lg:px-0">
+        <h2 className="text-4xl font-bold section-title">
           {title}
           <span className="text-primary-200">.</span>
         </h2>
       </div>
-      <div className="px-6" data-aos="fade-up" data-aos-delay="300">
+      <div className="px-6" data-aos="fade-up" data-aos-delay="100">
         <WorkoutSlider />
       </div>
     </section>

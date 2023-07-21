@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c9a6c10f.css",
+    "main.js": "/static/js/main.c443aa58.js",
+    "static/media/bg.png": "/static/media/bg.335a9ed7ad9266c3a73f.png",
+    "static/media/lg.png": "/static/media/lg.78e714d3e1214848ec68.png",
+    "static/media/lg2.png": "/static/media/lg2.1953d9c66e49a662bae0.png",
+    "static/media/img4.png": "/static/media/img4.3f2b41a180f0b0e9b539.png",
+    "static/media/img3.png": "/static/media/img3.76cafac0275672eee799.png",
+    "static/media/img1.png": "/static/media/img1.a5400d538dc08bb9c485.png",
+    "static/media/img2.png": "/static/media/img2.f49950ea6082a8572af4.png",
+    "static/media/p7.jpeg": "/static/media/p7.95ecd36049b18edad510.jpeg",
+    "static/media/p10.jpeg": "/static/media/p10.59ca51e1cb9801a5699f.jpeg",
+    "static/media/aboutImg.jpeg": "/static/media/aboutImg.b5b115f271f411cbd2fc.jpeg",
+    "static/media/p9.jpeg": "/static/media/p9.b804676f78fdb3af167b.jpeg",
+    "static/media/p6.jpeg": "/static/media/p6.847834439a4233264a7e.jpeg",
+    "static/media/p2.jpeg": "/static/media/p2.e1ce26a39ccd67bbe36c.jpeg",
+    "static/media/p4.jpeg": "/static/media/p4.2ab5ee51678bf9e92ae6.jpeg",
+    "static/media/p1.jpeg": "/static/media/p1.67df58be613c61b47068.jpeg",
+    "static/media/p5.jpeg": "/static/media/p5.fcc6218d1002ac1c9df0.jpeg",
+    "static/media/p3.jpeg": "/static/media/p3.fb9678425b699ac2c681.jpeg",
+    "static/media/p8.jpeg": "/static/media/p8.f99b349f8f8735639478.jpeg",
+    "static/media/price.svg": "/static/media/price.99fc6d830c98a274d69675502dec0aac.svg",
+    "index.html": "/index.html",
+    "static/media/users-icn.svg": "/static/media/users-icn.1c1181836b52f949c1de5db01fcd212e.svg",
+    "static/media/community-icn.svg": "/static/media/community-icn.6ccf103bf065aaec1be8ea4cddcb9511.svg",
+    "static/media/question-mark.svg": "/static/media/question-mark.ac78e0f4921dbec4cdd8586294a5bb5d.svg",
+    "static/media/chevron-right.svg": "/static/media/chevron-right.54d3bc1c0ea6ec072a21.svg",
+    "static/media/bg.svg": "/static/media/bg.e3dec2c236c3afaf8c8a.svg",
+    "static/media/chevron-left.svg": "/static/media/chevron-left.7d0e8c34fcab2fb5f0bc.svg",
+    "main.c9a6c10f.css.map": "/static/css/main.c9a6c10f.css.map",
+    "main.c443aa58.js.map": "/static/js/main.c443aa58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9a6c10f.css",
+    "static/js/main.c443aa58.js"
+  ]
+}
