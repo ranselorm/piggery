@@ -1,4 +1,3 @@
-import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 // import aos
@@ -7,7 +6,8 @@ import "aos/dist/aos.css";
 
 // import components
 import Home from "./pages/Home";
-import Contact from "./components/Contact";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 const App = () => {
   // aos initialization
@@ -20,8 +20,11 @@ const App = () => {
     <div className="max-w-[1440px] mx-auto bg-page overflow-hidden relative">
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+
+      {/* <Faq /> */}
     </div>
   );
 };

@@ -50,13 +50,13 @@ body {
     @apply flex justify-center items-center rounded-[1px];
   }
   .btn-sm {
-    @apply font-primary font-bold uppercase text-[12px] leading-[18px] h-[42px] px-[30px] py-[30px] tracking-[1px];
+    @apply font-primary font-bold uppercase text-[12px] leading-[18px] h-[30px] px-[25px] py-[25px] tracking-[1px];
   }
   .btn-lg {
     @apply font-primary font-bold uppercase text-[14px] leading-[18px] h-[46px] px-[40px] tracking-[1px];
   }
   .btn-primary {
-    @apply bg-primary-200 text-neutral-100 hover:bg-primary-200/90 transition;
+    @apply bg-primary-200 text-neutral-100  transition;
   }
   .btn-secondary {
     @apply bg-[#87CEEB] text-neutral-500 hover:bg-white/90 transition;
