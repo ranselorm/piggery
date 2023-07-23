@@ -9,7 +9,7 @@ const Services = () => {
         {/* wrapper */}
         <div className="grid grid-rows-3 lg:grid-cols-3 gap-6 justify-center items-center lg:px-[70px] px-0 -mt-[50px] lg:-mt-[30px]">
           <div
-            className="w-[370px] lg:w-[300px] h-[330px] rounded-lg px-[30px] flex flex-col justify-center items-start gap-y-4 lg:shadow-xl shadow-lg"
+            className="w-[370px] lg:w-[300px] h-[330px] rounded-lg px-[30px] flex flex-col justify-center items-start gap-y-4 lg:shadow-xl shadow-4xl"
             data-aos="fade-up"
             data-aos-delay="200"
           >
@@ -23,7 +23,7 @@ const Services = () => {
           <div
             className="w-[370px] lg:w-[300px] h-[330px] rounded-lg px-[30px] flex flex-col justify-center items-start gap-y-4 lg:shadow-xl shadow-lg"
             data-aos="fade-up"
-            data-aos-delay="300"
+            data-aos-delay="400"
           >
             <LuPiggyBank className="text-[40px] text-[#87CEEB]  font-bold" />
             <h5 className="font-bold text-[20px]">Breeding</h5>
@@ -35,7 +35,7 @@ const Services = () => {
           <div
             className="w-[370px] lg:w-[300px] h-[330px] rounded-lg px-[30px] flex flex-col justify-center items-start gap-y-4 lg:shadow-xl shadow-lg"
             data-aos="fade-up"
-            data-aos-delay="400"
+            data-aos-delay="600"
           >
             <BsPeopleFill className="text-[40px] text-[#87CEEB]  font-bold" />
             <h5 className="font-bold text-[20px]">Consultation & Training</h5>

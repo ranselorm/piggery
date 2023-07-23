@@ -19,19 +19,17 @@ const Header = () => {
   return (
     <header
       className={`
-       fixed z-30 right-0 left-0 flex max-w-[1440px] mx-auto justify-between items-center px-[20px] lg:px-[80px] bg-white mb-[300px]`}
+       fixed z-30 right-0 left-0 flex max-w-[1440px] mx-auto justify-between items-center px-[20px] lg:px-[80px] bg-white mb-[300px] py-[8px]`}
     >
-      <Link to="/" className="transition-all duration-300">
+      <Link to="/">
         <img src={logo} alt="logo" className="w-[80px]" />
-
-        {/* <img src={logo} alt="logo" className="w-[80px]" /> */}
       </Link>
       <Nav />
 
-      <Link to={"/"}>
-        <BsInstagram
-          className={`text-primary-200" : "text-primary-200 text-2xl hidden lg:flex cursor-pointer`}
-        />
+      <Link
+        to={"https://www.instagram.com/sgafrika/?igshid=Y2I2MzMwZWM3ZA%3D%3D"}
+      >
+        <BsInstagram className={`text-2xl hidden lg:flex cursor-pointer`} />
       </Link>
 
       <div
@@ -45,7 +43,7 @@ const Header = () => {
         )}
       </div>
 
-      <NavMobile navMobile={navMobile} />
+      <NavMobile navMobile={navMobile} setNavMobile={setNavMobile} />
     </header>
   );
 };

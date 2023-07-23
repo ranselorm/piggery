@@ -1,16 +1,17 @@
+import { Link } from "react-router-dom";
 import { nav } from "../data";
 
-const NavMobile = ({ navMobile }) => {
+const NavMobile = ({ navMobile, setNavMobile }) => {
   return (
     <nav
       className={`${
-        navMobile ? "min-h-full" : "min-h-0"
-      } lg:hidden w-full bg-neutral-500 fixed top-0 right-0 left-0 bottom-12 overflow-hidden -z-10 transition-all h-0`}
+        navMobile ? "min-w-[60%]" : "min-w-0"
+      } lg:hidden h-full bg-neutral-500 fixed top-0 right-0 bottom-12 overflow-hidden -z-10 transition-all duration-300 w-0`}
     >
       <ul className="flex flex-col justify-center items-center w-full h-full gap-8">
         {nav.map((item, index) => (
           <li className="text-white text-body-md" key={index}>
-            <a href={item.href}>{item.name}</a>
+            <Link to={item.href}>{item.name}</Link>
           </li>
         ))}
       </ul>

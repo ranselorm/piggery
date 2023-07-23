@@ -39,7 +39,7 @@ const About = () => {
             Thank you for choosing SG AFRIKA FARMS. We look forward to serving
             you and being a part of your delightful dining experiences.
             <Link to="/contact">
-              <button className="btn btn-sm lg:btn-lg btn-secondary rounded-[50px] hover:bg-neutral-500 hover:text-white transition-all duration-300 mt-10 ">
+              <button className="btn btn-sm lg:btn-lg btn-secondary rounded-[50px] hover:bg-neutral-500 hover:text-white transition-all duration-300 mt-10 hidden lg:flex">
                 Contact us
               </button>
             </Link>
