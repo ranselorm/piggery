@@ -34,6 +34,7 @@ module.exports = {
       },
       backgroundImage: {
         banner: "url('/src/assets/img/banner/bg.png')",
+        chose: "url('/src/assets/img/banner/chose.jpg')",
         faq: "url('/src/assets/img/faq/bg.svg')",
       },
       backgroundSize: {

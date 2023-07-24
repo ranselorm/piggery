@@ -32,6 +32,7 @@ export const header = {
 export const nav = [
   { name: "Home", href: "/" },
   { name: "About Us", href: "/about" },
+  { name: "Consultation & Training", href: "/consultation" },
   { name: "Contact Us", href: "/contact" },
 ];
 
@@ -178,8 +179,6 @@ export const faq = {
     },
   ],
 };
-
-
 
 export const footer = {
   logo: Logo2,

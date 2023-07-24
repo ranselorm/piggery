@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <header
       className={`
-       fixed z-30 right-0 left-0 flex max-w-[1440px] mx-auto justify-between items-center px-[20px] lg:px-[80px] bg-white mb-[300px] py-[8px]`}
+       fixed z-30 right-0 left-0 flex max-w-[1440px] mx-auto justify-between items-center px-[20px] lg:px-[80px] bg-white mb-[300px] py-[2px]`}
     >
       <Link to="/">
         <img src={logo} alt="logo" className="w-[80px]" />
