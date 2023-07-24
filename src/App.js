@@ -7,6 +7,8 @@ import "aos/dist/aos.css";
 // import components
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Pictures from "./pages/Pictures";
+import Consultation from "./pages/Consultation";
 import Contact from "./pages/Contact";
 
 const App = () => {
@@ -21,7 +23,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/pictures" element={<Pictures />} />
+        <Route path="/consultation" element={<Consultation />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>

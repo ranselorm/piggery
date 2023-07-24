@@ -5,12 +5,22 @@ import { SlSocialInstagram } from "react-icons/sl";
 
 const Contact = () => {
   return (
-    <section className="h-screen text-white flex items-center justify-center mb-[80px] lg:mb-0">
-      <div className="w-[80%] flex justify-center items-center lg:pt-[400px] pt-[250px]">
+    <section className="h-screen text-white mt-[60px] mb-[280px] lg:mb-[80px]">
+      <div className="bg-chose bg-cover bg-center w-full h-[40vh]">
+        <div className="flex flex-col items-center justify-center text-center backdrop-brightness-[.10] w-full h-full">
+          <h2 className="text-primary-200 text-4xl mb-4 font-semibold">
+            Contact Us
+          </h2>
+          <p className="text-white">
+            Ready to take your piggery to new heights? We're here to help! Get
+            in touch with us!
+          </p>
+        </div>
+      </div>
+      <div className="flex justify-center items-center py-[150px]">
         <div className="flex items-center flex-col">
-          <h2 className="h2 font-bold">Contact Us</h2>
           {/* wrapper */}
-          <div className="grid lg:grid-cols-3 lg:gap-x-10 gap-x-0 gap-y-10 lg:gap-y-0 grid-rows-3 lg:mt-[80px] mt-[50px]">
+          <div className="grid lg:grid-cols-3 lg:gap-x-10 gap-x-0 gap-y-10 lg:gap-y-0 grid-rows-3">
             {/* content wrapper */}
             <div className="flex flex-col justify-center items-center gap-y-4 w-[300px]">
               <AiOutlineMobile className="text-primary-200 font-bold text-4xl" />

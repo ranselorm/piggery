@@ -9,10 +9,10 @@ const Accordion = ({ accordion }) => {
     <div className="cursor-pointer">
       <div className="border bg-white rounded-sm">
         <div
-          className="min-h-[60px] flex items-center justify-between px-[30px]"
+          className="min-h-[45px] flex items-center justify-between px-[15px]"
           onClick={() => setIsOpen(!isOpen)}
         >
-          <h6 className="h6">{question}</h6>
+          <h6 className="text-[16px] font-semibold">{question}</h6>
           <div>
             {isOpen ? (
               <FaChevronCircleUp className="text-neutral-500 text-[20px]" />

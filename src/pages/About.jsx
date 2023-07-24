@@ -13,16 +13,10 @@ const About = () => {
               src={aboutImg}
               alt="about"
               className="w-full h-full object-contain rounded-lg"
-              data-aos="fade-right"
-              data-aos-delay="100"
             />
           </div>
           {/* text */}
-          <div
-            className="flex-1 md:text-[16px] mb-6 text-justify"
-            data-aos="fade-left"
-            data-aos-delay="100"
-          >
+          <div className="flex-1 md:text-[16px] mb-6 text-justify">
             <h2 className="font-bold text-[30px]">About Us</h2>
             <div className="bg-primary-200 h-[5px] w-[100px] mb-4"></div>
             Welcome to <strong>SG AFRIKA FARMS</strong>, your go-to destination
