@@ -25,9 +25,6 @@ const Nav = () => {
           <NavLink to="/about">About</NavLink>
         </li>
         <li>
-          <NavLink to="/pictures">Pictures</NavLink>
-        </li>
-        <li>
           <NavLink to="/consultation" className="flex items-center gap-x-1">
             Consultation & Training
             <AiFillCaretDown />
@@ -44,6 +41,9 @@ const Nav = () => {
               <a href="#">Consult on infactstructure building</a>
             </li>
           </ul>
+        </li>
+        <li>
+          <NavLink to="/pictures">Gallery</NavLink>
         </li>
         <li>
           <NavLink to="/contact">Contact</NavLink>
