@@ -42,7 +42,7 @@ const Footer = () => {
               <li className="text-white">
                 <a href="#" className="flex items-center gap-x-2">
                   <AiFillCaretRight className="text-primary-200" />
-                  Pictures
+                  Gallery
                 </a>
               </li>
             </ul>
