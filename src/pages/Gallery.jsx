@@ -27,6 +27,14 @@ export const images = [
     text: "Description of image is here image3",
     link: require("../images/p7.jpeg"),
   },
+  {
+    text: "Description of image is here image3",
+    link: require("../images/p8.jpeg"),
+  },
+  {
+    text: "Description of image is here image3",
+    link: require("../images/p9.jpeg"),
+  },
 ];
 
 const Gallery = () => {
@@ -56,7 +64,7 @@ const Gallery = () => {
   };
 
   return (
-    <section className="mt-[100px] relative my-[100px]">
+    <section className="mt-[60px] relative my-[100px]">
       <div className="bg-pg bg-cover bg-center w-full h-[40vh] mb-[50px]">
         <div className="flex flex-col items-center justify-center text-center backdrop-brightness-[.10] w-full h-full">
           <h2 className="text-primary-200 text-3xl mb-4 font-semibold">
@@ -68,11 +76,11 @@ const Gallery = () => {
           </p>
         </div>
       </div>
-      <div className="grid lg:grid-cols-3 gap-10 items-center justify-center container mx-auto">
+      <div className="grid lg:grid-cols-4 gap-6 items-center justify-center container mx-auto">
         {images.map((item, itemIndex) => (
           <div
             key={itemIndex}
-            className="w-[380px] lg:w-[350px] h-[500px] lg:h-[400px] overflow-hidden rounded-lg"
+            className="w-[380px] lg:w-[250px] h-[500px] lg:h-[300px] overflow-hidden rounded"
           >
             <img
               src={item.link}

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <section className="py-[80px] md:py-[110px] lg:pt-[140] lg:pb-[180px]">
+    <section className="py-[80px] md:py-[110px] lg:pt-[140] lg:pb-[180px] text-black">
       <div className="px-[20px] lg:px-[135px]">
         {/* wrapper */}
         <div className="flex flex-col lg:flex-row items-center gap-x-8 mt-[100px]">

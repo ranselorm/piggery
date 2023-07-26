@@ -1,5 +1,5 @@
 import { footer } from "../data";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import {
   AiFillCaretRight,
   AiTwotonePhone,
@@ -13,9 +13,9 @@ const Footer = () => {
     <footer className="bg-neutral-500">
       <div className="container mx-auto flex flex-col gap-y-10 lg:gap-y-0 md:flex-row justify-between px-6 lg:px-0 items-start md:items-start h-full py-[50px]">
         <div className="flex-1 flex flex-col gap-x-4">
-          <Link to="/">
+          <NavLink to="/">
             <h3 className="text-white text-xl mb-5">SG AFRIKA FARMS</h3>
-          </Link>
+          </NavLink>
           <p className="text-white text-[14px]">
             With a focus on animal welfare and top-notch facilities, our piggery
             is dedicated to producing premium-quality pork products. Come
@@ -28,22 +28,22 @@ const Footer = () => {
             <h4 className="text-white text-xl mb-5">Quick Links</h4>
             <ul className="flex flex-col gap-y-4">
               <li className="text-white">
-                <a href="#" className="flex items-center gap-x-2">
+                <NavLink to="/" className="flex items-center gap-x-2">
                   <AiFillCaretRight className="text-primary-200" />
                   Home
-                </a>
+                </NavLink>
               </li>
               <li className="text-white">
-                <a href="#" className="flex items-center gap-x-2">
+                <NavLink to="/about" className="flex items-center gap-x-2">
                   <AiFillCaretRight className="text-primary-200" />
                   About
-                </a>
+                </NavLink>
               </li>
               <li className="text-white">
-                <a href="#" className="flex items-center gap-x-2">
+                <Link to="/gallery" className="flex items-center gap-x-2">
                   <AiFillCaretRight className="text-primary-200" />
                   Gallery
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
