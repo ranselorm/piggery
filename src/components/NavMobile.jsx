@@ -11,7 +11,7 @@ const NavMobile = ({ navMobile, setNavMobile }) => {
     >
       <ul className="flex flex-col items-start gap-x-4 px-10">
         <div className="text-xl text-white">
-          <NavLinks />
+          <NavLinks setNavMobile={setNavMobile} />
         </div>
       </ul>
     </nav>

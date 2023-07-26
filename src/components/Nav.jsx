@@ -4,7 +4,7 @@ import NavLinks from "./NavLinks";
 import { AiFillCaretDown } from "react-icons/ai";
 // import "../custom.css";
 
-const Nav = ({ navMobile }) => {
+const Nav = ({ setNavMobile }) => {
   const activeLink = "text-primary-200 transition-all duration-300";
   const normalLink = "";
   // flex justify-center items-center w-full h-full relative gap-x-6 text-black
@@ -12,7 +12,7 @@ const Nav = ({ navMobile }) => {
   return (
     <nav className="hidden lg:flex">
       <ul className="flex items-center gap-x-4">
-        <NavLinks navMobile={navMobile} />
+        <NavLinks setNavMobile={setNavMobile} />
       </ul>
     </nav>
   );

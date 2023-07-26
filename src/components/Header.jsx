@@ -8,15 +8,13 @@ import Nav from "./Nav";
 import NavMobile from "./NavMobile";
 
 // import icons
-import { RiMenu4Fill, RiCloseFill } from "react-icons/ri";
+import { RiMenu4Fill } from "react-icons/ri";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 
 const Header = () => {
   const [navMobile, setNavMobile] = useState(false);
 
-  //destructure header
   const { logo } = header;
-  //
 
   return (
     <header className="fixed z-30 right-0 left-0 flex max-w-[1440px] mx-auto justify-between items-center px-[20px] lg:px-[80px] bg-white mb-[300px] py-[2px]">
@@ -26,10 +24,8 @@ const Header = () => {
           alt="logo"
           className={`w-[80px] ${navMobile && "hidden"}`}
         />
-
-        {/* <img src={logo} alt="logo" className="w-[80px]" /> */}
       </Link>
-      <Nav navMobile={navMobile} />
+      <Nav navMobile={navMobile} setNavMobile={setNavMobile} />
 
       <Link
         to={"https://www.instagram.com/sgafrika/?igshid=Y2I2MzMwZWM3ZA%3D%3D"}
