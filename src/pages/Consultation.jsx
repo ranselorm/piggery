@@ -48,7 +48,7 @@ const Consultation = () => {
               <img src={Feed} alt="" className="w-full h-full" />
             </div>
             <h2 className="text-black text-[18px] my-5 font-black uppercase">
-              Consult on feed formation
+              Consult on feed formulation
             </h2>
             <p className="text-black">
               Our feed formulation consultation for piggery aims to optimize the
