@@ -91,7 +91,7 @@ const Gallery = () => {
           id="dismiss"
           onClick={handleClick}
         >
-          <div className="w-[1000px] h-[500px] flex items-center justify-center relative">
+          <div className="w-[1000px] h-[500px] flex items-center justify-center relative transition-all duration-300">
             <img
               src={images[slideNumber].link}
               alt=""

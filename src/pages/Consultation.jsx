@@ -1,5 +1,9 @@
 import React from "react";
 import { FaCaretRight } from "react-icons/fa";
+import Feed from "../images/feed.jpeg";
+import Breed from "../images/breed.jpg";
+import Infac from "../images/infac.jpg";
+import Acad from "../images/acad.jpg";
 
 const Consultation = () => {
   return (
@@ -20,6 +24,7 @@ const Consultation = () => {
           <h2 className="text-[20px] lg:text-[30px]">
             We consult and we train
           </h2>
+
           <div>
             <p className="my-4 text-black">
               Welcome to our piggery consultation services! Our team of
@@ -38,11 +43,11 @@ const Consultation = () => {
           <hr className="my-[50px]" />
         </article>
         <div className="container mx-auto px-2 lg:px-0 grid lg:grid-cols-2  grid-rows-2 items-start gap-x-10 gap-y-10">
-          <section
-            className="mt-10 shadow-lg rounded-lg px-[10px] py-10"
-            id="section1"
-          >
-            <h2 className="text-black text-[18px] font-semibold mb-5 capitalize">
+          <section className="mt-10 rounded-lg" id="section1 overflow-hidden">
+            <div className="w-full h-full rounded-lg">
+              <img src={Feed} alt="" className="w-full h-full" />
+            </div>
+            <h2 className="text-black text-[18px] my-5 font-black uppercase">
               Consult on feed formation
             </h2>
             <p className="text-black">
@@ -50,103 +55,14 @@ const Consultation = () => {
               nutrition and growth of your pigs, leading to healthier and more
               productive herds. Our experienced consultants will work closely
               with you to develop customized feed formulations tailored to the
-              specific needs and goals of your piggery operation. Here's how we
-              can assist you:
+              specific needs and goals of your piggery operation.
             </p>
-            <div className="flex flex-col pl-[20px] gap-y-4 mt-5 text-[14px]">
-              <span className="flex items-center">
-                <FaCaretRight />
-                Nutritional Assessment
-              </span>
-              <span>Feed Ingredient Selection</span>
-              <span>Nutritional Assessment</span>
-              <span>Nutritional Assessment</span>
-              <span>Nutritional Assessment</span>
-            </div>
           </section>
-          <section
-            className="mt-10 shadow-lg rounded-lg px-[10px] py-10"
-            id="section1"
-          >
-            <h2 className="text-black text-[18px] font-semibold mb-5 capitalize">
-              Consult on feed formation
-            </h2>
-            <p className="text-black">
-              Our feed formulation consultation for piggery aims to optimize the
-              nutrition and growth of your pigs, leading to healthier and more
-              productive herds. Our experienced consultants will work closely
-              with you to develop customized feed formulations tailored to the
-              specific needs and goals of your piggery operation. Here's how we
-              can assist you:
-            </p>
-            <div className="flex flex-col pl-[20px] gap-y-4 mt-5 text-[14px]">
-              <span className="flex items-center">
-                <FaCaretRight />
-                Nutritional Assessment
-              </span>
-              <span>Feed Ingredient Selection</span>
-              <span>Nutritional Assessment</span>
-              <span>Nutritional Assessment</span>
-              <span>Nutritional Assessment</span>
+          <section className="mt-10 rounded-lg" id="section1 overflow-hidden">
+            <div className="w-full h-full rounded-lg">
+              <img src={Breed} alt="" className="w-full h-full" />
             </div>
-          </section>
-          <section
-            className="mt-10 shadow-lg rounded-lg px-[10px] py-10"
-            id="section1"
-          >
-            <h2 className="text-black text-[18px] font-semibold mb-5 capitalize">
-              Consult on feed formation
-            </h2>
-            <p className="text-black">
-              Our feed formulation consultation for piggery aims to optimize the
-              nutrition and growth of your pigs, leading to healthier and more
-              productive herds. Our experienced consultants will work closely
-              with you to develop customized feed formulations tailored to the
-              specific needs and goals of your piggery operation. Here's how we
-              can assist you:
-            </p>
-            <div className="flex flex-col pl-[20px] gap-y-4 mt-5 text-[14px]">
-              <span className="flex items-center">
-                <FaCaretRight />
-                Nutritional Assessment
-              </span>
-              <span>Feed Ingredient Selection</span>
-              <span>Nutritional Assessment</span>
-              <span>Nutritional Assessment</span>
-              <span>Nutritional Assessment</span>
-            </div>
-          </section>
-          <section
-            className="mt-10 shadow-lg rounded-lg px-[10px] py-10"
-            id="section1"
-          >
-            <h2 className="text-black text-[18px] font-semibold mb-5 capitalize">
-              Consult on feed formation
-            </h2>
-            <p className="text-black">
-              Our feed formulation consultation for piggery aims to optimize the
-              nutrition and growth of your pigs, leading to healthier and more
-              productive herds. Our experienced consultants will work closely
-              with you to develop customized feed formulations tailored to the
-              specific needs and goals of your piggery operation. Here's how we
-              can assist you:
-            </p>
-            <div className="flex flex-col pl-[20px] gap-y-4 mt-5 text-[14px]">
-              <span className="flex items-center">
-                <FaCaretRight />
-                Nutritional Assessment
-              </span>
-              <span>Feed Ingredient Selection</span>
-              <span>Nutritional Assessment</span>
-              <span>Nutritional Assessment</span>
-              <span>Nutritional Assessment</span>
-            </div>
-          </section>
-          <section
-            className="container mx-auto px-4 lg:px-0 mt-10"
-            id="section1"
-          >
-            <h2 className="text-black text-[18px] font-semibold mb-5 capitalize">
+            <h2 className="text-black text-[18px] my-5 font-black uppercase">
               Consult on breeding program
             </h2>
             <p className="text-black">
@@ -157,12 +73,12 @@ const Consultation = () => {
               based on your specific goals and objectives.
             </p>
           </section>
-          <section
-            className="container mx-auto px-4 lg:px-0 mt-10"
-            id="section1"
-          >
-            <h2 className="text-black text-[18px] font-semibold mb-5 capitalize">
-              Consult on Infacstucture building
+          <section className="mt-10 rounded-lg" id="section1 overflow-hidden">
+            <div className="w-full h-full rounded-lg">
+              <img src={Infac} alt="" className="w-full h-full" />
+            </div>
+            <h2 className="text-black text-[18px] my-5 font-black uppercase">
+              Consult on Infacstructure building
             </h2>
             <p className="text-black">
               Our infrastructure building consultation for your piggery focuses
@@ -173,11 +89,11 @@ const Consultation = () => {
               and objectives.
             </p>
           </section>
-          <section
-            className="container mx-auto px-4 lg:px-0 mt-10"
-            id="section1"
-          >
-            <h2 className="text-black text-[18px] font-semibold mb-5 capitalize">
+          <section className="mt-10 rounded-lg" id="section1 overflow-hidden">
+            <div className="w-full h-[350px] rounded-lg">
+              <img src={Acad} alt="" className="w-full h-full object-cover" />
+            </div>
+            <h2 className="text-black text-[18px] my-5 font-black uppercase">
               Pigs Academy
             </h2>
             <p className="text-black">

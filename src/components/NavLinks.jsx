@@ -85,7 +85,10 @@ const NavLinks = ({ setNavMobile }) => {
                         key={index}
                         className="text-sm hover:bg-primary-200 transition-all duration-150 font-semibold flex items-center gap-x-2 py-2 px-2"
                       >
-                        <Link to={link.url} className="flex items-center">
+                        <Link
+                          to={link.url}
+                          className="flex items-center capitalize"
+                        >
                           <FaCaretRight />
                           {link.name}
                         </Link>
