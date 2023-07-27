@@ -6,7 +6,7 @@ const Banner = () => {
         <div className="flex items-center justify-center h-full">
           {/* text */}
           <div className="text-white flex flex-col items-center justify-center text-center backdrop-brightness-[.20] w-screen h-[70vh] lg:h-screen pt-[100px] ">
-            <h1 className="mb-8 text-3xl text-primary-200 font-black">
+            <h1 className="mb-8 text-2xl text-primary-200 font-black text-body-md">
               Welcome to SG AFRIKA FARMS
               <br />
             </h1>

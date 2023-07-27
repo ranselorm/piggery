@@ -35,6 +35,7 @@ module.exports = {
       backgroundImage: {
         banner: "url('/src/assets/img/banner/bg.png')",
         chose: "url('/src/assets/img/banner/chose.jpg')",
+        consult: "url('/src/assets/img/banner/consult.jpg')",
         pg: "url('/src/assets/img/banner/pg.jpg')",
         faq: "url('/src/assets/img/faq/bg.svg')",
       },

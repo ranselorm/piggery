@@ -9,7 +9,7 @@ const Services = () => {
       <div className="px-[20px] lg:px-[70px] pt-[50px]">
         {/* wrapper */}
         <div className="grid grid-rows-4 md:grid-cols-2 lg:grid-cols-4 justify-center items-center px-0 -mt-[60px] lg:-mt-[70px] w-full lg:ml-[20px] ml-0">
-          <div className="w-[370px] lg:w-[280px] h-[330px] rounded-lg px-[30px] flex flex-col justify-center items-start gap-y-4 lg:shadow-xl shadow-4xl">
+          <div className="w-[370px] lg:w-[280px] h-[330px] rounded-lg px-[30px] flex flex-col justify-center items-start gap-y-4 lg:shadow-xl shadow-lg transform hover:-translate-y-4 transition-all duration-300">
             <MdOutlineSell className="text-[40px] text-[#87CEEB] font-bold" />
             <h5 className="font-bold text-[20px]">Piglet Sales</h5>
             <p>
@@ -17,36 +17,24 @@ const Services = () => {
               production or to individuals interested in raising pigs as pets.
             </p>
           </div>
-          <div
-            className="w-[370px] lg:w-[280px] h-[330px] rounded-lg px-[30px] flex flex-col justify-center items-start gap-y-4 lg:shadow-xl shadow-lg"
-            // data-aos="fade-up"
-            // data-aos-delay="10"
-          >
-            <LuPiggyBank className="text-[40px] text-[#87CEEB]  font-bold" />
+          <div className="w-[370px] lg:w-[280px] h-[330px] rounded-lg px-[30px] flex flex-col justify-center items-start gap-y-4 lg:shadow-xl shadow-lg transform lg:hover:-translate-y-4 transition-all duration-300">
+            <LuPiggyBank className="text-[40px] text-[#87CEEB] font-bold" />
             <h5 className="font-bold text-[20px]">Breeding</h5>
             <p>
               We offer high-quality breeding stock to people who wish to improve
               the genetics and productivity of their herds.
             </p>
           </div>
-          <div
-            className="w-[370px] lg:w-[280px] h-[330px] rounded-lg px-[30px] flex flex-col justify-center items-start gap-y-4 lg:shadow-xl shadow-lg"
-            // data-aos="fade-up"
-            // data-aos-delay="100"
-          >
-            <BsPeopleFill className="text-[40px] text-[#87CEEB]  font-bold" />
+          <div className="w-[370px] lg:w-[280px] h-[330px] rounded-lg px-[30px] flex flex-col justify-center items-start gap-y-4 lg:shadow-xl shadow-lg transform lg:hover:-translate-y-4 transition-all duration-300">
+            <BsPeopleFill className="text-[40px] text-[#87CEEB] font-bold" />
             <h5 className="font-bold text-[20px]">Consultation</h5>
             <p>
               We offer consulting services aspiring pig farmers, providing
               guidance on best practices, management, and problem-solving.
             </p>
           </div>
-          <div
-            className="w-[370px] lg:w-[280px] h-[330px] rounded-lg px-[30px] flex flex-col justify-center items-start gap-y-4 lg:shadow-xl shadow-lg"
-            // data-aos="fade-up"
-            // data-aos-delay="150"
-          >
-            <GiBrodieHelmet className="text-[40px] text-[#87CEEB]  font-bold" />
+          <div className="w-[370px] lg:w-[280px] h-[330px] rounded-lg px-[30px] flex flex-col justify-center items-start gap-y-4 lg:shadow-xl shadow-lg transform lg:hover:-translate-y-4 transition-all duration-300">
+            <GiBrodieHelmet className="text-[40px] text-[#87CEEB] font-bold" />
             <h5 className="font-bold text-[20px]">Training</h5>
             <p className="">
               We aim to equip participants with the expertise to manage a

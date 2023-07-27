@@ -39,7 +39,10 @@ const Info = () => {
         <hr className="my-[50px]" />
         {/* wrapper */}
         <div className="grid lg:grid-cols-2 grid-rows-4 gap-x-6 gap-y-10 ">
-          <div className="flex items-start justify-center gap-x-4 flex-1 ">
+          <div
+            className="flex items-start justify-center gap-x-4 flex-1"
+            id="test"
+          >
             <div>
               <BsPersonCheckFill className="text-3xl text-primary-200" />
             </div>
