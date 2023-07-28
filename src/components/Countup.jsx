@@ -1,4 +1,3 @@
-import CountUp from "react-countup";
 import { AiOutlineLike } from "react-icons/ai";
 import { GiPig } from "react-icons/gi";
 import { IoMdPeople } from "react-icons/io";

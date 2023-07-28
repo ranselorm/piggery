@@ -1,5 +1,4 @@
 import React from "react";
-import { FaCaretRight } from "react-icons/fa";
 import Feed from "../images/feed.jpeg";
 import Breed from "../images/breed.jpg";
 import Infac from "../images/infac.jpg";

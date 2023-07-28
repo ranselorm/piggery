@@ -1,4 +1,4 @@
-import { MdMiscellaneousServices, MdOutlineSell } from "react-icons/md";
+import { MdOutlineSell } from "react-icons/md";
 import { LuPiggyBank } from "react-icons/lu";
 import { BsPeopleFill } from "react-icons/bs";
 import { GiBrodieHelmet } from "react-icons/gi";

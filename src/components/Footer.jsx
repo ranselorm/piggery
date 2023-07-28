@@ -1,4 +1,3 @@
-import { footer } from "../data";
 import { NavLink, Link } from "react-router-dom";
 import {
   AiFillCaretRight,
@@ -6,7 +5,7 @@ import {
   AiOutlineInstagram,
 } from "react-icons/ai";
 import { ImLocation } from "react-icons/im";
-const { logo } = footer;
+// const { logo } = footer;
 
 const Footer = () => {
   return (

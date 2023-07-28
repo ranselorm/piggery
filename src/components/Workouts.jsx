@@ -1,4 +1,3 @@
-import { workouts } from "../data";
 import WorkoutSlider from "./WorkoutSlider";
 
 const Workouts = () => {

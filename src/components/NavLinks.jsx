@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
-import { animateScroll as scroll } from "react-scroll";
 import { FaCaretRight } from "react-icons/fa";
 import { BiChevronUp, BiChevronDown } from "react-icons/bi";
 
