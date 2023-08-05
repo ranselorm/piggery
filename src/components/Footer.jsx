@@ -54,7 +54,13 @@ const Footer = () => {
               <li className="text-white">
                 <p className="flex items-center gap-x-2">
                   <AiTwotonePhone className="text-primary-200" />
-                  020 246 9191
+                  +233202469191
+                </p>
+              </li>
+              <li className="text-white">
+                <p className="flex items-center gap-x-2">
+                  <AiTwotonePhone className="text-primary-200" />
+                  +233552525442
                 </p>
               </li>
               <li className="text-white">

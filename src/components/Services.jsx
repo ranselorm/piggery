@@ -5,7 +5,7 @@ import { GiBrodieHelmet } from "react-icons/gi";
 
 const Services = () => {
   return (
-    <section className="lg:-mt-0 -mt-[50px] lg:h-[50vh] h-[150vh]">
+    <section className="mt-[100px]  lg:h-[50vh] h-[150vh]">
       <div className="px-[20px] lg:px-[70px] pt-[50px]">
         {/* wrapper */}
         <div className="grid grid-rows-4 md:grid-cols-2 lg:grid-cols-4 justify-center items-center px-0 -mt-[60px] lg:-mt-[70px] w-full lg:ml-[20px] ml-0">

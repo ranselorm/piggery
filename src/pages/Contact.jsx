@@ -25,8 +25,8 @@ const Contact = () => {
             <div className="flex flex-col justify-center items-center gap-y-4 w-[300px]">
               <AiOutlineMobile className="text-primary-200 font-bold text-4xl" />
               <h4 className="font-bold text-2xl">Phone</h4>
-              <span className="text-black">020 246 9191</span>
-              <span className="text-black">055 252 5442</span>
+              <span className="text-black"> +233202469191</span>
+              <span className="text-black">+233552525442</span>
             </div>
             <div className="flex flex-col justify-center items-center gap-y-4 w-[300px]">
               <CiLocationOn className="text-primary-200 font-bold text-4xl" />
