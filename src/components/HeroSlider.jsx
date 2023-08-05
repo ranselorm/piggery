@@ -6,7 +6,8 @@ import { Link } from "react-router-dom";
 
 const images = [
   {
-    text1: "From Sow to Swine, Our Piggery Shines!",
+    text1: "From farm to fork, pigs with perfection",
+    // text1: "From Sow to Swine, Our Piggery Shines!",
     text2: "-where Quality Breeds of Pigs Thrive!",
     link: require("../images/pig.jpg"),
   },
