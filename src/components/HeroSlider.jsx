@@ -40,7 +40,7 @@ const HeroSlider = () => {
       {images.map((image) => {
         return (
           <>
-            <div className="w-full h-[70vh] md:h-[100vh] relative">
+            <div className="w-full h-[75vh] md:h-[100vh] relative">
               <img
                 src={image.link}
                 alt={image.text1}
