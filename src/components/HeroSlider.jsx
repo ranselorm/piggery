@@ -6,19 +6,12 @@ import { Link } from "react-router-dom";
 
 const images = [
   {
-    text1: "From farm to fork, pigs with perfection",
-    // text1: "From Sow to Swine, Our Piggery Shines!",
-    text2: "-where Quality Breeds of Pigs Thrive!",
+    text1: "Where Quality Breeds of Pigs Thrive!",
     link: require("../images/pig.jpg"),
   },
-  // {
-  //   text1: "From farm to fork, pigs with perfection",
-  //   text2: "-where Quality Breeds of Pigs Thrive!",
-  //   link: require("../images/bg.jpg"),
-  // },
+
   {
     text1: "Swine Adventures at Our Piggery",
-    text2: "-where Quality Breeds of Pigs Thrive!",
     link: require("../images/pigs.jpg"),
   },
 ];
@@ -32,14 +25,13 @@ const HeroSlider = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
-    lazyLoad: false,
   };
 
   return (
     <Slider {...sliderSettings} className="">
-      {images.map((image) => {
+      {images.map((image, index) => {
         return (
-          <>
+          <div key={index}>
             <div className="w-full h-[75vh] md:h-[100vh] relative">
               <img
                 src={image.link}
@@ -65,7 +57,7 @@ const HeroSlider = () => {
                 </Link>
               </div>
             </div>
-          </>
+          </div>
         );
       })}
     </Slider>
